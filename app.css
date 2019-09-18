@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+/* .top-container{
+    width: 40%;
+} */
+
+.container{
+    display: flex;
+    border: 1px solid black;
+    background-color: #000;
+}
+
+.container:nth-child(1){
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    padding: 13px 0px;
+    padding-right: 10px;
+    justify-content: flex-end;
+}
+
+.calc-button{
+    background-color: #D8D9DB;
+    color: #000;
+    height: 100px;
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    font-size: 40px;
+    cursor: pointer;
+    margin: 0px 1px;
+}
+
+.calc-button:hover{
+    background-color: rgba(255, 255, 255, 0.774);
+}
+
+.zero{
+    width: 75%
+}
+
+.equals, 
+.divide, 
+.back{
+    width: 25%;
+}
+
+.clear{
+    width: 50%;
+}
+
+.divide, 
+.multiplication, 
+.subtraction, 
+.addition, 
+.equals{
+    background-color: #DF974C;
+    color: white;
+}
